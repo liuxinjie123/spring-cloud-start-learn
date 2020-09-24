@@ -8,10 +8,10 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.dream.cloud.enueka</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>com.dream.cloud.eureka</groupId>
+    <artifactId>001_eureka-server</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>demo</name>
+    <name>001_eureka-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

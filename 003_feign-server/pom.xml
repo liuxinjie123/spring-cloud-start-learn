@@ -8,11 +8,10 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-    <groupId>com.dream.cloud.eureka</groupId>
-    <artifactId>001_eureka-server</artifactId>
+    <groupId>com.dream.cloud.feign</groupId>
+    <artifactId>feign-server</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>001_eureka-server</name>
+    <name>feign-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,8 +21,18 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>
@@ -59,18 +68,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>alimaven</id>
-            <url>https://maven.aliyun.com/repository/public</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>alimaven</id>
-            <url>https://maven.aliyun.com/repository/public</url>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>

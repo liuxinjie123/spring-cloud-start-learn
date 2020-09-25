@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dream.cloud.feign</groupId>
-    <artifactId>feign-server</artifactId>
+    <artifactId>003_feign-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>feign-server</name>
+    <name>003_feign-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

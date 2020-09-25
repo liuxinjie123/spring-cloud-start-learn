@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.dream.cloud.ribbon</groupId>
-    <artifactId>002_ribbon-server</artifactId>
+    <artifactId>002_ribbon-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>002_ribbon-server</name>
+    <name>002_ribbon-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

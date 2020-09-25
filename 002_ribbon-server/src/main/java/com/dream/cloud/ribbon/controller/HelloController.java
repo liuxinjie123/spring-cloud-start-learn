@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/hi")
+@RequestMapping(value = "/hello")
 public class HelloController {
     @Autowired
     private HelloService helloService;

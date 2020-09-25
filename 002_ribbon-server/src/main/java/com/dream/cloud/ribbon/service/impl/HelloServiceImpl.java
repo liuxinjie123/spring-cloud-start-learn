@@ -22,6 +22,6 @@ public class HelloServiceImpl implements HelloService {
     public String hello(String name) {
         Map<String, String> params = new HashMap<>();
         params.put("name", name);
-        return restTemplate.getForObject("http://EUREKASERVICE/hi?name={name}", String.class, params);
+        return restTemplate.getForObject("http://EUREKASERVICE/hello?name={name}", String.class, params);
     }
 }

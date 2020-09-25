@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.dream.cloud.eureka.client_8762</groupId>
-    <artifactId>001_eureka-client-8762</artifactId>
+    <artifactId>eurekaservice</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>001_eureka-client-8762</name>
+    <name>eurekaservice</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

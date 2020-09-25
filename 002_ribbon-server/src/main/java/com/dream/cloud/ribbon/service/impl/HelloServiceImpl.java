@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Service
 public class HelloServiceImpl implements HelloService {
     @Autowired
@@ -17,6 +20,8 @@ public class HelloServiceImpl implements HelloService {
      */
     @Override
     public String hello(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
+        Map<String, String> params = new HashMap<>();
+        params.put("name", name);
+        return restTemplate.getForObject("http://EUREKASERVICE/hi?name={name}", String.class, params);
     }
 }

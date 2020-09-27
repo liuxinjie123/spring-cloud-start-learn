@@ -30,6 +30,7 @@
 
         <module>003_feign-service</module>
         <module>004_ribbon2-service</module>
+        <module>005_zuul-service</module>
 
     </modules>
 

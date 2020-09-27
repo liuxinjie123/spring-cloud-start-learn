@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/hello")
 public class HelloController {
     @Autowired
-    private HelloService helloService;
+    HelloService helloService;
 
     @GetMapping
     public String hello(@RequestParam(value = "name") String name) {

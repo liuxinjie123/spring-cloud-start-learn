@@ -10,24 +10,25 @@
     </parent>
 
     <groupId>com.dream.cloud.config</groupId>
-    <artifactId>006_config-server</artifactId>
+    <artifactId>006_config-client</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>006_config-server</name>
+    <name>006_config-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
         <dependency>
@@ -41,11 +42,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
     </dependencies>
-
-
-
 
     <build>
         <plugins>

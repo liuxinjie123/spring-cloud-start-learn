@@ -33,6 +33,7 @@
         <module>005_zuul-service</module>
 
         <module>006_config-server</module>
+        <module>006_config-client</module>
 
     </modules>
 
@@ -49,6 +50,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.3.3.RELEASE</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
